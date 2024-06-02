@@ -1,0 +1,65 @@
+module.exports = {
+  buildTime: new Date(),
+  isMultiLanguage : false,
+  url : "https://gov-cy.github.io/govcy-design-system-docs-v2/",
+  showTOC: true,
+  showDraft: false,
+  showVersion: true,
+  version:"2.2.0", 
+  cssCDN: `<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/gov-cy/govcy-design-system@v2.1.1/dist/css/main.min.css" integrity="sha384-F+ky8v3AaxUWgO4Q36KXarGEFx5YNCparZr/q7m9S7yMVbvBdIJ9Bw0P9gFmw87r" crossorigin="anonymous">`,
+  cssDownload: "https://raw.githubusercontent.com/gov-cy/govcy-design-system/v2.1.1/dist/css/main.min.css",
+  jsCDN: `<script src="https://cdn.jsdelivr.net/gh/gov-cy/govcy-design-system@v2.1.1/dist/js/app.min.js" integrity="sha384-xv0o+su1i+C0o4fYwrsX+q0dhbhj/IsZscMn7qvrt49Wboy+TIWT0GlfyiW39aH/" crossorigin="anonymous"></script>`,
+  jsDownload: "https://raw.githubusercontent.com/gov-cy/govcy-design-system/v2.1.1/dist/js/app.min.js",
+  languages: [
+    {
+      label: "English",
+      code: "en",
+    },
+    {
+      label: "Ελληνικά",
+      code: "el",
+    },
+  ],
+  localization: {
+    "el" : {
+      "title" : "gov.cy",
+      "subtitle" : "Οδηγός Σχεδίασης",
+      "description" : "Design your services using gov.cy styles, components and patterns.",
+      "menu" : "Μενού",
+      "draft" : "DRAFT",
+      "version" : "Ver.",
+      "url" : "",
+      "ask_users_for": "Ask users for",
+      "help_users": "Help users",
+      "pages": "Σελίδες",
+      "how_to": "How to",
+      "TOC_title" : "Περιεχόμενα",
+      "privacy_label":"Όροι Χρήσης",
+      "cookie_label":"Προστασία Προσωπικών Δεδομένων",
+      "accessibility_label":"Προσβασιμότητα",
+      "copyright_label":"© Κυπριακή Δημοκρατία, 2021",
+      "search_placeholder":"Έρευνα στο Design System",
+      "skip_to_main" : "Μετάβαση στο κυρίως περιεχόμενο"
+    },
+    "en" : {
+      "title" : "gov.cy",
+      "subtitle" : "Design System",
+      "description" : "Design your services using gov.cy styles, components and patterns.",
+      "menu" : "Menu",
+      "draft" : "DRAFT",
+      "version" : "Ver.",
+      "url" : "",
+      "ask_users_for": "Ask users for",
+      "help_users": "Help users",
+      "pages": "Pages",
+      "how_to": "How to",
+      "TOC_title" : "On this page",
+      "privacy_label":"Privacy statement",
+      "cookie_label":"Cookie policy",
+      "accessibility_label":"Accessibility statement",
+      "copyright_label":"© Republic of Cyprus, 2021",
+      "search_placeholder":"Search Design System",
+      "skip_to_main" : "Skip to main content"
+    }
+  }
+};
